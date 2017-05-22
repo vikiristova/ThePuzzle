@@ -1,0 +1,8 @@
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\bin\Debug\Slozuvalka.exe
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\bin\Debug\Slozuvalka.pdb
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\WindowsFormsApplication1.formSlozuvalka.resources
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.exe
+C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.pdb
