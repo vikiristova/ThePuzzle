@@ -6,3 +6,11 @@ C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x8
 C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.csproj.GenerateResource.Cache
 C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.exe
 C:\Users\user\documents\visual studio 2010\Projects\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.pdb
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.exe
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.pdb
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\bin\Debug\Slozuvalka.exe
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\bin\Debug\Slozuvalka.pdb
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.csprojResolveAssemblyReference.cache
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\obj\x86\Debug\WindowsFormsApplication1.formSlozuvalka.resources
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\Projects\VP_PROEKT_GIT\Slozuvalka\Slozuvalka\obj\x86\Debug\Slozuvalka.csproj.GenerateResource.Cache

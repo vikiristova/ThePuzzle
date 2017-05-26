@@ -76,6 +76,20 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\BigBenLondon.jpg" />
+    <Content Include="Images\ColosseumRome.jpg" />
+    <Content Include="Images\EiffelTower.jpg" />
+    <Content Include="Images\GoldenGateBridge.jpg" />
+    <Content Include="Images\GreatPyramidOfGiza.jpg" />
+    <Content Include="Images\MonaLisa.jpg" />
+    <Content Include="Images\Pisa.jpg" />
+    <Content Include="Images\StatueOfLiberty.jpg" />
+    <Content Include="Images\SydneyOperaHouse.jpg" />
+    <Content Include="Images\theKiss.jpg" />
+    <Content Include="Images\The_Persistence_of_Memory.jpg" />
+    <Content Include="Images\vanGogh.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
