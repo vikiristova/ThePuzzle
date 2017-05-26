@@ -43,6 +43,8 @@
             this.rbFamousPlaces = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Restart = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.pnlSlozuvalka.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -181,17 +183,18 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(37, 192);
+            this.pictureBox1.Location = new System.Drawing.Point(47, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(151, 164);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // btn_Restart
             // 
             this.btn_Restart.Enabled = false;
-            this.btn_Restart.Location = new System.Drawing.Point(414, 313);
+            this.btn_Restart.Location = new System.Drawing.Point(398, 316);
             this.btn_Restart.Name = "btn_Restart";
             this.btn_Restart.Size = new System.Drawing.Size(88, 42);
             this.btn_Restart.TabIndex = 6;
@@ -199,11 +202,37 @@
             this.btn_Restart.UseVisualStyleBackColor = true;
             this.btn_Restart.Click += new System.EventHandler(this.btn_Restart_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.Enabled = false;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(174, 226);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(24, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "---";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 231);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Преостанати чекори: ";
+            this.label2.Visible = false;
+            // 
             // formSlozuvalka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 370);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Restart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rbFamousPlaces);
@@ -212,7 +241,7 @@
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.pnlSlozuvalka);
             this.Name = "formSlozuvalka";
-            this.Text = "ThePuzzle";
+            this.Text = "Сложувалка";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlSlozuvalka.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -238,6 +267,8 @@
         private System.Windows.Forms.RadioButton rbFamousPlaces;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_Restart;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

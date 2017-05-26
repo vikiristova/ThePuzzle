@@ -14,6 +14,7 @@ namespace WindowsFormsApplication1
 {
     public partial class formSlozuvalka : Form
     {
+        int counter = 0;
         Point point;
         ArrayList images=new ArrayList();
         public formSlozuvalka()
@@ -41,12 +42,14 @@ namespace WindowsFormsApplication1
 
         private void btn_Restart_Click(object sender, EventArgs e)
         {
+            Application.Restart();
+
+
+            // Application.Run(new formSlozuvalka());
             // Application.Restart();
             //  btnStart_Click(sender, e);
 
-            point.X = 180;
-            point.Y = 180;
-            InitializeComponent();
+
 
         }
 
@@ -57,6 +60,12 @@ namespace WindowsFormsApplication1
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            label1.Visible = true;
+            label2.Visible = true;
+            pictureBox1.Visible = true;
+            lblKategorija.Visible = false;
+            rbFamousArtists.Visible = false;
+            rbFamousPlaces.Visible = false;
             Image goalImage;
             // this.Refresh();
             foreach (Button b in pnlSlozuvalka.Controls)
@@ -206,11 +215,40 @@ namespace WindowsFormsApplication1
                 button.Location = point;
 
                 point = swap;
+
+                updateCounter();
             }
             if(point.X==180&&point.Y==180)
             {
                 validationCheck();
             }
+        }
+
+
+        private void updateCounter()
+        {
+            counter++;
+            label1.Text = 132-counter + "";
+
+            if (counter <= 30)
+            {
+                label1.BackColor = System.Drawing.Color.Green;
+            }
+            else if (counter > 30 && counter < 100)
+                label1.BackColor = System.Drawing.Color.LightYellow;
+            else if (counter >= 100 && counter < 131 )
+                label1.BackColor = System.Drawing.Color.Maroon;
+
+            else if (counter > 131)
+            {
+                MessageBox.Show("За жал не успеавте да ја решите сложувалката. ");
+                MessageBox.Show("Ве молиме обидете се повторно! ");
+                    Application.Restart();
+           
+
+            }
+            
+
         }
 
         private void validationCheck()
@@ -227,7 +265,8 @@ namespace WindowsFormsApplication1
             }
             if (count == 8)
             {
-                MessageBox.Show("Погоди го авторот");
+                MessageBox.Show("Честитки. Ја решивте сложувалката!!!");
+                Application.Restart();
                     
             }
 
