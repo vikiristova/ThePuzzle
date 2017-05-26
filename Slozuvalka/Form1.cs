@@ -83,14 +83,14 @@ namespace WindowsFormsApplication1
             }
             else if(chosen=="placesChosen")
             {
-                string[] Places ={"C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\GreatPyramidOfGiza.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\ColosseumRome.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\StatueOfLiberty.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\Pisa.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\EiffelTower.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\BigBenLondon.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\SydneyOperaHouse.jpg",
-                    "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\GoldenGateBridge.jpg"
+                string[] Places ={"..\\..\\images\\GreatPyramidOfGiza.jpg",
+                    "..\\..\\images\\ColosseumRome.jpg",
+                    "..\\..\\images\\StatueOfLiberty.jpg",
+                    "..\\..\\images\\Pisa.jpg",
+                    "..\\..\\images\\EiffelTower.jpg",
+                    "..\\..\\images\\BigBenLondon.jpg",
+                    "..\\..\\images\\SydneyOperaHouse.jpg",
+                    "..\\..\\images\\GoldenGateBridge.jpg"
 
                                 };
                 var rand=new Random();
