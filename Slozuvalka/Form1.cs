@@ -44,20 +44,29 @@ namespace WindowsFormsApplication1
             foreach (Button b in pnlSlozuvalka.Controls) {
                 b.Enabled = true;
                 Image goalImage;
-                if (rbFamousArtists.Checked)
-                {
-                    goalImage = imageChosen("artistsChosen");
-                }
-                else
-                {
-                    goalImage = imageChosen("placesChosen");
-                }
-              //Image goalImage = Image.FromFile("C:\\Users\\user\\Documents\\vanGogh.jpg");
+
+                goalImage = rbChecked(rbFamousArtists);
+
+   
                 cropGoalImage(goalImage,270,270);
+
                 partialImagesAsButtons(images);
                 Invalidate();
             }
         }
+
+        private Image rbChecked(RadioButton X)
+        {
+
+            if (X.Checked)
+                return imageChosen("artistsChosen");
+
+            else
+                return imageChosen("placesChosen");
+
+        }
+
+
 
         private Image imageChosen(string chosen)
         {
