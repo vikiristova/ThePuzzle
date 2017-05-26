@@ -38,21 +38,48 @@ namespace WindowsFormsApplication1
 
         }
 
+
+        private void btn_Restart_Click(object sender, EventArgs e)
+        {
+            // Application.Restart();
+            //  btnStart_Click(sender, e);
+
+            point.X = 180;
+            point.Y = 180;
+            InitializeComponent();
+
+        }
+
+        private void Form1_load()
+        {
+            throw new NotImplementedException();
+        }
+
         private void btnStart_Click(object sender, EventArgs e)
         {
-            this.Refresh();
-            foreach (Button b in pnlSlozuvalka.Controls) {
+            Image goalImage;
+            // this.Refresh();
+            foreach (Button b in pnlSlozuvalka.Controls)
+            {
                 b.Enabled = true;
-                Image goalImage;
+                //  Image goalImage;
 
-                goalImage = rbChecked(rbFamousArtists);
+            }
+            goalImage = rbChecked(rbFamousArtists);
 
-   
                 cropGoalImage(goalImage,270,270);
 
                 partialImagesAsButtons(images);
-                Invalidate();
-            }
+              //  Invalidate();
+
+            
+            btnStart.Enabled = false;
+            btn_Restart.Enabled = true;
+           
+
+
+           pictureBox1.Image = goalImage;
+
         }
 
         private Image rbChecked(RadioButton X)
@@ -81,12 +108,14 @@ namespace WindowsFormsApplication1
                 var rand = new Random();
                 string image = famousPaintings[rand.Next(famousPaintings.Length)];
                 string famousPaintingImage = image;
+               // pictureBox1.Image = image;
+
                 //Uri uri = new Uri(famousPaintings[rand.Next(famousPaintings.Length)], UriKind.Relative);
                 bool existence = File.Exists(image);
                 if (existence)
                 {
                     goalImage = Image.FromFile(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), image));
-
+                   // pictureBox1.Image = goalImage;
                 }
                 //goalImage = Image.FromFile(famousPaintingImage);
             }
@@ -105,7 +134,13 @@ namespace WindowsFormsApplication1
                 var rand=new Random();
                 string PlacesImages = Places[rand.Next(Places.Length)];
                 goalImage = Image.FromFile(PlacesImages);
+               
             }
+
+            //pictureBox1.Image = goalImage;
+
+
+
             return goalImage;
         }
 
@@ -216,5 +251,6 @@ namespace WindowsFormsApplication1
             imageChosen(choice);
         }
 
+       
     }
 }
