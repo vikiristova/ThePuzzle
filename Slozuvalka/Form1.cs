@@ -64,10 +64,10 @@ namespace WindowsFormsApplication1
             Image goalImage = null;
             if (chosen.CompareTo("artistsChosen") == 0)
             {
-                string[] famousPaintings ={"C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\The_Persistence_of_Memory.jpg",
-                                          "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\theKiss.jpg",
-                                          "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\MonaLisa.jpg",
-                                          "C:\\Users\\user\\Documents\\Visual Studio 2010\\Projects\\Slozuvalka\\images\\vanGogh.jpg"};
+                string[] famousPaintings ={"..\\..\\images\\The_Persistence_of_Memory.jpg",
+                                          "..\\..\\images\\theKiss.jpg",
+                                          "..\\..\\images\\MonaLisa.jpg",
+                                          "..\\..\\images\\vanGogh.jpg"};
                
                 var rand = new Random();
                 string image = famousPaintings[rand.Next(famousPaintings.Length)];
