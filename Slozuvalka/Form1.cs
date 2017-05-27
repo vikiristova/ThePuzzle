@@ -274,22 +274,10 @@ namespace WindowsFormsApplication1
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            btnStart.Enabled = true;
-            string choice="";
-            if (rbFamousArtists.Checked)
-            {
-                rbFamousPlaces.Enabled = false;
-                choice = "artistsChosen";
-
-            }
-            else
-            {
-                rbFamousArtists.Enabled = false;
-                choice = "placesChosen";
-            }
-            imageChosen(choice);
+           btnStart.Enabled = true;
+          
         }
 
-       
+
     }
 }
